@@ -1,9 +1,21 @@
 import React from 'react'
+import '../index.css'
+import Board from './Board'
 
-class game extends React.Component {
+class Game extends React.Component {
   render() {
-    return <div>'Islam just keep calm and karry on'</div>
+    return (
+      <div className="game">
+        <div className="game-board">
+          <Board />
+        </div>
+        <div className='game-info'>
+          <div>{}</div>
+          <ol>{}</ol>
+        </div>
+      </div>
+    )
   }
 }
 
-export default game
+export default Game

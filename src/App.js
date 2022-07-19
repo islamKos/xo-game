@@ -1,10 +1,10 @@
 import React from 'react'
-import game from './Board/game'
+import Game from './Board/Game'
 
 function App() {
   return (
     <div>
-      <game />
+      <Game />
     </div>
   )
 }
